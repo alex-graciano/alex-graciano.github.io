@@ -1,8 +1,8 @@
-{%-if include.category-%}
-  {%-assign paper = site.categories[include.category]-%}  
-{%-else-%}
-  {%-assign paper = site.paper-%}
-{%-endif-%}
+{%- if include.category -%}
+  {%- assign papers = site.categories[include.category] -%}
+{%- else -%}
+  {%- assign papers = site.paper -%}
+{%- endif -%}
 
 {%-if include.limit and papers.size > include.limit-%}
   {%-assign limit_exceeded = true-%}
