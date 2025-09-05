@@ -35,3 +35,7 @@ jektex:
   macros:
     - ["\\Q", "\\mathbb{Q}"]
     - ["\\C", "\\mathbb{C}"]
+
+collections:
+  papers:
+    output: true
