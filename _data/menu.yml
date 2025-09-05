@@ -17,7 +17,7 @@ entries:
       show_more_url: archive_papers.html
 
   - title: research papers
-    post_list:
+    papers_list:
       limit: 3
       show_more: true
       show_more_text: See archive...
