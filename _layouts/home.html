@@ -13,7 +13,7 @@ layout: default
 {% endif %}
 
 {% if page.image %}
-  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="max-width:200px;margin-bottom:1em;">
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width:100%;height:auto;margin-bottom:1em;">
 {% endif %}
 
 {%-include menu_item.html collection=site.data.menu.entries-%}
