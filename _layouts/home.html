@@ -10,4 +10,14 @@ layout: default
 
 {%-include menu_item.html collection=site.data.menu.entries-%}
 
+<h1>{{ page.title }}</h1>
+
+{% if page.description %}
+  <p>{{ page.description }}</p>
+{% endif %}
+
+{% if page.image %}
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="max-width:200px;margin-bottom:1em;">
+{% endif %}
+
 {{ content }}
