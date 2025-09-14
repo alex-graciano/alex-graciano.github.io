@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Papers
+subtitle: A selection of my research papers
 permalink: /papers/
 ---
 <ul class="list-posts">
