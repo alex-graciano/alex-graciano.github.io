@@ -4,7 +4,7 @@ layout: default
 {% include page/title.html %}
 
 {% if page.image %}
-  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width:100%;height:auto;margin-bottom:1em;">
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width:100%;height:33vh;object-fit:cover;margin-bottom:1em;">
 {% endif %}
 
 {{ content }}
