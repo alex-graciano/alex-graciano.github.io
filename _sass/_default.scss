@@ -126,12 +126,12 @@ strong {
 
 .page-title__text {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 46px;
 }
 
 .page-title__subtitle {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     color: $cloudy;
 }
 
@@ -160,8 +160,15 @@ strong {
 }
 
 .post-teaser__title {
-    font-size: 22px;
+    font-size: 20px;
     color: $iron;
+}
+
+.teaser__title {
+    font-size: 20px;
+    margin-bottom: 0.4em ;
+    color: $iron;
+    display: block;
 }
 
 .post-teaser__date {
@@ -172,7 +179,7 @@ strong {
 }
 
 .empty-post-list {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     color: $iron;
     text-align: center;

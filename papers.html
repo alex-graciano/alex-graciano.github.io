@@ -1,16 +1,8 @@
 ---
 layout: page
 title: Papers
-subtitle: A selection of my research papers
+subtitle: Scientific publications during my academic career
 permalink: /papers/
 ---
-<ul class="list-posts">
-    {% for paper in site.papers %}
-        <li class="post-teaser">
-            <a href="{{ paper.url | prepend: site.baseurl }}">
-                <span class="post-teaser__title">{{ paper.title }}</span>
-                <span class="post-teaser__date">{{ paper.date | date: "%B %Y" }}</span>
-            </a>
-        </li>
-    {% endfor %}
-</ul>
+
+{% include list-teasers.html collection=site.papers %}
