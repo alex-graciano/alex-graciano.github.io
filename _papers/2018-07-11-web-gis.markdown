@@ -1,0 +1,23 @@
+---
+layout: post
+title: Web-based GIS application for real-time interaction of underground infrastructure through virtual reality
+date: 2018-11-07
+subtitle: Juan Manuel Jurado, Alejandro Graciano, Lidia Ortega, Francisco R Feito
+image: /assets/images/paper_2017_11_07_teaser.png
+---
+
+
+Real-time visualization in web-based system remains challenging
+due to the amount of information associated to a 3D urban models.
+However, these 3D models are not able to provide advanced management of urban infrastructures, such as underground facilities.
+Nowadays, 3D GIS is considered the appropriate tool to provide accurate analysis and decision support based on spatial data. This paper presents a web-GIS application for 3D visualization, navigation,
+interaction and analysis of underground infrastructures through
+virtual reality. The growth of underground cities is a complex problem without easy solutions. In general, these infrastructures cannot
+be directly visualized. Thus, subsoil mapping can help us to develop
+a clearer representation of underground’s pipes, cables or water
+mains. In addition, the approach of virtual reality provides an immersive experience and novelty interaction to acquire a complete
+knowledge about underground city structures. Experimental results show an integral application for the efficient management of
+underground infrastructure in real-time.
+
+This article was originally published in:
+- [SIGSPATIAL'17 Conference](https://www.researchgate.net/profile/Juan-M-Jurado/publication/327639877_Web-based_GIS_application_for_real-time_interaction_of_underground_infrastructure_through_virtual_reality/links/5c953080299bf111694092da/Web-based-GIS-application-for-real-time-interaction-of-underground-infrastructure-through-virtual-reality.pdf)
