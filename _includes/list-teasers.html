@@ -1,23 +1,21 @@
 <ul class="list-teasers">
     {% for item in include.collection %}
-        <li class="teaser" style="display: flex; align-items: center; margin-bottom: 1.5em;">
-            <!-- Left column: Image -->
-            <div style="flex: 0 0 120px; margin-right: 1em;">
+        <li class="teaser teaser--responsive" style="display: flex; align-items: center; margin-bottom: 1.5em;">
+            <div class="teaser__image-col">
                 {% if item.image %}
-                    <div style="width: 100px; aspect-ratio: 4/3; background: #eee; border-radius: 8px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-                        <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="teaser__image-wrapper">
+                        <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
                     </div>
                 {% else %}
-                    <div style="width: 100px; aspect-ratio: 4/3; background: #eee; border-radius: 8px;"></div>
+                    <div class="teaser__image-wrapper"></div>
                 {% endif %}
             </div>
-            <!-- Right column: Title above, date below, both right-aligned -->
-            <div style="flex: 1; display: flex; flex-direction: column; align-items: flex-end; text-align: right;">
+            <div class="teaser__info-col">
                 <a href="{% if item.external_url %}{{ item.external_url }}{% else %}{{ item.url | prepend: site.baseurl }}{% endif %}" {% if item.external_url %}target="_blank" rel="noopener"{% endif %}>
-                    <span class="teaser__title" style="font-weight: bold;">{{ item.title }}</span>
+                    <span class="teaser__title">{{ item.title }}</span>
                 </a>
                 {% if item.date %}
-                    <span class="teaser__date" style="color: #888;">{{ item.date | date: "%d %B %Y" }}</span>
+                    <span class="teaser__date">{{ item.date | date: "%d %B %Y" }}</span>
                 {% endif %}
             </div>
         </li>
