@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: paper
 title: Towards a hybrid framework for the visualization and analysis of 3D spatial data
 date: 2018-11-07
-subtitle: Alejandro Graciano, Antonio J Rueda, Lidia Ortega, Francisco R Feito
+authors: Alejandro Graciano, Antonio J Rueda, Lidia Ortega, Francisco R Feito
 image: /assets/images/paper_2017_11_07_2.png
 ---
 

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: paper
 title: A formal framework for the representation of stack-based terrains
 date: 2018-10-03
-subtitle: Alejandro Graciano, Antonio J Rueda, Francisco R Feito
+authors: Alejandro Graciano, Antonio J Rueda, Francisco R Feito
 image: /assets/images/paper_2017_10_03.png
 ---
 

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+  <div class="posts-container">
+    {% if post.image %}
+      <div class="thumbnail-container">
+        <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ site.github.url }}{{ post.url }}{% endif %}">
+          <img src="{{ site.github.url }}{{ post.image }}">
+          <div class="thumbnail-overlay">
+            <h2 class="thumbnail-title">{{ post.title }}</h2>
+          </div>
+        </a>
+      </div>
+    {% endif %}
+  </div>
+{% endfor %}
+<!-- Pagination links -->
+<!--
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+  {% endif %}
+</div>
+-->

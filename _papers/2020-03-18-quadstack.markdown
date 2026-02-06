@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: paper
 title: >
     Quadstack: An efficient representation and direct rendering of layered datasets
 date: 2020-03-18
-subtitle: Alejandro Graciano, Antonio J Rueda, Adam Pospíšil, Jiří Bittner, Bedrich Benes
+authors: Alejandro Graciano, Antonio J Rueda, Adam Pospíšil, Jiří Bittner, Bedrich Benes
 image: /assets/images/paper_2020_03_18.png
 ---
 

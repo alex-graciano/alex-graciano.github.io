@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: paper
 title: Real-time visualization of 3D terrains and subsurface geological structures
 date: 2018-01-01
-subtitle: Alejandro Graciano, Antonio J Rueda, Francisco R Feito
-image: /assets/images/paper_2017_01_01_teaser.png
+authors: Alejandro Graciano, Antonio J Rueda, Francisco R Feito
+image: /assets/images/paper_2017_01_01.png
 ---
 
 ![Visualization of 3D terrains and subsurface geological structures](/assets/images/paper_2017_01_01.png)

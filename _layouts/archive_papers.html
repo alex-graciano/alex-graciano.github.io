@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<h1>
+  PhD Thesis
+</h1>
+<p>
+  My PhD thesis, <em>Multilayer representation for geological information systems
+</em>, is available for download as a PDF file:
+</p>
+<ul>
+  <li><a href="{{ site.github.url }}/assets/papers/thesis_graciano.pdf">Download thesis (PDF)</a></li>
+</ul>
+
+
+
+<h1 class="section-header">
+  {{ page.title }}
+</h1>
+
+<ul class="posts-container">
+  {% assign sorted_papers = site.papers | sort: "date" | reverse %}
+  {% for paper in sorted_papers %}
+    {% capture current_year %}{{ paper.date | date: '%Y' }}{% endcapture %}
+    {% if current_year != last_year %}
+      <h3>{{ current_year }}</h3>
+      {% assign last_year = current_year %}
+    {% endif %}
+    <li itemscope>
+      <a href="{{ site.github.url }}{{ paper.url }}">{{ paper.title }}</a>
+      <p class="post-date"><span>{{paper.authors}} - {{ paper.date | date: "%Y" }}</span></p>
+    </li>
+  {% endfor %}
+</ul>

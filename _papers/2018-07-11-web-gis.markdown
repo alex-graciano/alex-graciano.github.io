@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: paper
 title: Web-based GIS application for real-time interaction of underground infrastructure through virtual reality
 date: 2018-11-07
-subtitle: Juan Manuel Jurado, Alejandro Graciano, Lidia Ortega, Francisco R Feito
-image: /assets/images/paper_2017_11_07_teaser.png
+authors: Juan Manuel Jurado, Alejandro Graciano, Lidia Ortega, Francisco R Feito
+image: /assets/images/paper_2017_11_07.png
 ---
 
 
@@ -20,4 +20,4 @@ knowledge about underground city structures. Experimental results show an integr
 underground infrastructure in real-time.
 
 This article was originally published in:
-- [SIGSPATIAL'17 Conference](https://www.researchgate.net/profile/Juan-M-Jurado/publication/327639877_Web-based_GIS_application_for_real-time_interaction_of_underground_infrastructure_through_virtual_reality/links/5c953080299bf111694092da/Web-based-GIS-application-for-real-time-interaction-of-underground-infrastructure-through-virtual-reality.pdf)
+- [SIGSPATIAL'17 Los Angeles Conference](https://www.researchgate.net/profile/Juan-M-Jurado/publication/327639877_Web-based_GIS_application_for_real-time_interaction_of_underground_infrastructure_through_virtual_reality/links/5c953080299bf111694092da/Web-based-GIS-application-for-real-time-interaction-of-underground-infrastructure-through-virtual-reality.pdf)
