@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<div style="display:flex;align-items:flex-start;gap:2em;flex-wrap:wrap;">
+  {% if page.image %}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}"
+         style="width:180px;height:180px;object-fit:cover;border-radius:50%;flex-shrink:0;">
+  {% endif %}
+  <article style="flex:1;min-width:200px;">
+    {{ content }}
+  </article>
+</div>
